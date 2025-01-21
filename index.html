@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/wasifa Diagnostic Center-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>WasfaDiagnostics</title>
+</head>
+<body>
+    <nav>
+        <div id="name-container">
+            <h1 id="name">واصفہ ڈائیگناسٹک سنٹر</h1>
+        </div>
+        <div id="logo">
+            <img src="images/wasifa Diagnostic Center-logo.png" alt="logo" height="80px" width="80px">
+        </div>
+        <div id="nav-links">
+            <ul class="main-bar">
+                <li><a href="#main-banner">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick=hideSideBar()><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></li>
+                <li><a href="#main-banner">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+            </ul>
+        </div>
+        <div onclick=showSideBar() id="menu-btn">
+            <svg  xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </div>
+    </nav>
+    <section id="main-banner">
+        <div id="banner-text">
+            <h1>Welcome to Wasfa Diagnostic Centre</h1>
+            <p>~Delivering Precision and Excellence in Diagnostics~</p>
+            <button id="A-btn"><a href="mailto:wasfadiagnostic@yahoo.com?subject=Appointment Request&body=Dear Sir/Madam, I hope this mail finds you well. I am writing to request an appointment for a medical consultation at your center. I would appreciate it if you could confirm the appointment time at your earliest convenience. Thank you for your assistance. Best regards, [write your name here!!] [Your Contact Information]"><bold>Take an Appointment</bold></a></button>
+        </div>
+    </section>
+    <!-- about us section -->
+    <section id="about-us">
+        <div class="container">
+            <div class="contentLeft">
+            <div class="row">
+                <div class="imgWrapper">
+                    <img src="images/aboutus1.jpg" alt="">
+                </div>
+                <div class="imgWrapper">
+                    <img src="images/aboutus2.avif" alt="">
+                </div>
+                <div class="imgWrapper">
+                    <img src="images/aboutus3.jpeg" alt="">
+                </div>
+                <div class="imgWrapper">
+                    <img src="images/aboutus4.jpg" alt="">
+                </div>
+            </div>
+            </div>
+            <div class="contentRight">
+            <div class="content">
+                <h2 class="section-headers">About Us</h2>
+                <p>At Wasfa Diagnostic Centre, we are committed to providing reliable and accurate diagnostic services to help our patients maintain their health. Our team of experts uses the latest equipment and technology to ensure the highest standards of care.</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="services">
+        <div id="services-header">
+        <h1 class="section-headers">Our Services</h1>
+        </div>
+        <div id="card-container">
+            <div class="card">
+                <div class="card-l-f">
+                    <img src="images/mri.jpeg" alt="A IMAGE" height=" 240px" width="190px">
+                    <div class="description">
+                        <p class="card-titles">Open MRI (GE USA)</p>
+                    </div>
+                </div>
+                <div class="card-l-b">
+                    <p class="card-descriptions">
+                        Our advanced Open MRI system from GE USA offers a comfortable and spacious scanning experience without compromising diagnostic precision. Ideal for patients who are claustrophobic or require extra space, it delivers high-quality imaging with state-of-the-art technology for accurate and reliable results.
+                    </p>
+                    
+                </div>
+            </div>
+            <!-- card no 2 -->
+            <div class="card">
+                <div class="card-l-f">
+                    <img src="images/ctscan.jpg" alt="A IMAGE" height=" 240px" width="190px">
+                    <div class="description">
+                        <p class="card-titles"> High-Speed 16 Slice CT Scan</p>
+                    </div>
+                </div>
+                <div class="card-l-b">
+                    <p class="card-descriptions">
+                        Our High-Speed 16-Slice CT Scan provides rapid, detailed imaging with exceptional clarity. This advanced technology enables precise diagnostics with reduced scanning time, ensuring patient comfort and accurate results for a wide range of medical conditions.
+                    </p>
+                </div>
+            </div>
+            <!-- card no 3 -->
+            <div class="card">
+                <div class="card-l-f">
+                    <img src="images/mammography.avif" alt="A IMAGE"  height=" 240px" width="190px">
+                    <div class="description">
+                        <p class="card-titles">Mammography</p>
+                    </div>
+                </div>
+                <div class="card-l-b">
+                    <p class="card-descriptions"> 
+                        Our state-of-the-art mammography services ensure accurate and early detection of breast abnormalities. With advanced imaging technology, we provide high-quality scans in a comfortable and supportive environment, prioritizing your health and peace of mind.
+                    </p>
+                </div>
+            </div>
+            <!-- card no 4 -->
+            <div class="card">
+                <div class="card-l-f">
+                    <img src="images/x-ray-machine.webp" alt="A IMAGE"  height=" 240px" width="190px">
+                    <div class="description">
+                        <p class="card-titles">C.R Digital X-Ray(Plain and Contrast)</p>
+                    </div>
+                </div>
+                <div class="card-l-b">
+                    <p class="card-descriptions"> 
+                        Our C.R Digital X-Ray services utilize advanced technology to deliver high-resolution images for precise diagnosis. Offering both plain and contrast imaging, we ensure accurate results with reduced radiation exposure in a patient-friendly environment.
+                    </p>
+                </div>
+            </div>
+            <!-- card no 5 -->
+            <div class="card">
+                <div class="card-l-f">
+                    <img src="images/ultrasound.png" alt="A IMAGE"  height=" 240px" width="190px">
+                    <div class="description">
+                        <p class="card-titles">Ultrasonography(Colour Doppler and Interventional)</p>
+                    </div>
+                </div>
+                <div class="card-l-b">
+                    <p class="card-descriptions"> 
+                        Our advanced ultrasonography services, including color Doppler and interventional procedures, provide detailed imaging for accurate diagnosis and treatment. With cutting-edge technology and skilled professionals, we ensure precision and patient comfort in every scan.
+                    </p>
+                </div>
+            </div>
+            <!-- card no 6 -->
+            <div class="card">
+                <div class="card-l-f">
+                    <img src="images/pathology.jpg" alt="A IMAGE"  height=" 240px" width="190px">
+                    <div class="description">
+                        <p class="card-titles">Pathology Lab(Hormones and Body Fluids)</p>
+                    </div>
+                </div>
+                <div class="card-l-b">
+                    <p class="card-descriptions"> 
+                        Our fully equipped pathology lab offers comprehensive testing for hormones and body fluids. With precise analysis and modern equipment, we ensure accurate results to support effective diagnosis and treatment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="doctors">
+    <div id="doctors-container">
+        <div class="doctor-card">
+            <h1>Dr.Khalid Mehmood</h1>
+            <p>MBBS DCPS MCPS</p>
+        </div>
+        <div class="doctor-card">
+            <h1>Dr Wasfa Gul</h1>
+            <p>FCPS(Diagnostic Radiology)</p>
+        </div>
+    </div>
+    <div id="doctors-header">
+        <h1 class="section-headers">Our Doctors</h1>
+    </div>
+    </section>
+    <section id="contact-us">
+        <div id="contact-header">
+            <h1 class="section-headers">Contact Us</h1>
+        </div>
+        <div id="contact-container">
+            <div id="contact-info">
+                <p>Mailing address :Wasfa Diagnostic Centre, Major Akram Shaheed Road, Azizabad, Jhelum, Punjab, Pakistan</p>
+                <p>Phone: +92 346-7122225 or 0544-234111</p>
+                <p>Email:<a href="wasfadiagnostic@yahoo.com">wasfadiagnostic@yahoo.com</a></p>
+    </section>
+    <section id="location">
+        <div id="location-container">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.325918796882!2d73.71708707512877!3d32.94240357551658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f911e6a52ca3b%3A0xfa2c5c421281e53e!2sWasfa%20Diagnostic%20Centre!5e0!3m2!1sen!2s!4v1737296250069!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="location-text">
+                <h1 class="section-headers">Location</h1>
+                <p>Wasfa Diagnostic Centre is located at Major Akram Shaheed Rd, Azizabad, Jhelum, Punjab, Pakistan</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-container">
+            <div id="footer-text">
+                <p>© 2025 Wasfa Diagnostic Centre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
