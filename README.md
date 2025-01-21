@@ -50,23 +50,23 @@ Welcome to the Wasfa Diagnostics website repository. This project is a comprehen
 Here are some screenshots showcasing the UI features of the Wasfa Diagnostics website:
 
 ### Home Page
-![Home Page]![image](https://github.com/user-attachments/assets/74f0158d-0121-431e-b947-666023fc2396)
+![image](https://github.com/user-attachments/assets/74f0158d-0121-431e-b947-666023fc2396)
 
 
 ### About Us
-![About Us]![image](https://github.com/user-attachments/assets/e7def4dc-97de-47da-969f-bb27b29a7061)
+![image](https://github.com/user-attachments/assets/e7def4dc-97de-47da-969f-bb27b29a7061)
 
 
 ### Services
-![Services]![image](https://github.com/user-attachments/assets/02d4fe17-bb52-4320-9178-e4094a3feeb5)
+![image](https://github.com/user-attachments/assets/02d4fe17-bb52-4320-9178-e4094a3feeb5)
 
 
 ### Doctors
-![Doctors]![image](https://github.com/user-attachments/assets/45a21b03-c792-4caf-89a3-8f4c15da74d1)
+![image](https://github.com/user-attachments/assets/45a21b03-c792-4caf-89a3-8f4c15da74d1)
 
 
 ### Contact Us
-![Contact Us]![image](https://github.com/user-attachments/assets/fe69a7be-6ea3-4ab8-abb5-4c0efa913d26)
+![image](https://github.com/user-attachments/assets/fe69a7be-6ea3-4ab8-abb5-4c0efa913d26)
 
 
 ## Contributing
